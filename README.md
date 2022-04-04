@@ -1,2 +1,2 @@
 # documentation
-documentation of the Biosustain  RDM-team's repository
+documentation of the Biosustain RDM-team's repository
