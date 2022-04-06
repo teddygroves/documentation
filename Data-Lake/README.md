@@ -1,13 +1,11 @@
 # DATA-LAKE project
-A data lake is a scalable data storage and analytices service. 
-Ours is host in Azure and there we store data that we subtract from Benchling.
+A data lake is a scalable data storage and analytices service.
 
 # techenoology use 
 pyhton3
 Azure
 Docker
 SQL 
-PostgreSQL
 
 # python3
 Python3 is programming language that the project is written in.
@@ -16,33 +14,37 @@ Python3 is programming language that the project is written in.
 Azure is a cloud computing service operated by Microsoft for application management via Microsoft-managed data centers.
 
 # Docker 
-Docker is an open source containerization platform. it enables developers to package applicatins into containers.
+Docker is an open source containerization platform. 
+It enables developers to package applicatins into containers.
+We use Docker for the MV environement.
 
-# SQL and PostgrSQL
-SQL stands for Structured Query Language. SQL lets you access and manipulate databases. 
-
-PostgrSQL is a more advanced version of SQL. This the database languages that Benchling use.  
+# SQL
+SQL stands for Structured Query Language. 
+SQL lets you access and manipulate databases.
 
 ##  We are converting our projects from SQL to Postsql
-reasons for this is that
-we have had experience, that the bancling-team sometime makes naming conventions changes to there Postsql database. 
+reasons for this is that we have had experience, 
+that the bancling-team sometime made naming changes to there Postsql database tabels. 
 
-That gives os mapping conflicts in our SQL database. 
+This gives os mapping conflicts in our SQL database. 
 To solve this we want to convert our SQL database to a Postsql database
 so that we have one to one database relations with Benchling.
 
-# How the data-lake works
+## How the data-lake works
 The Data lake get it data from 3 different data providers 
 - Analytical Core
 - NGS lab
 - External data providers
+when the data put into the data-lake we processed into tabels and organice it in the datawarehouse.
 
+you can also finde a data-lake.png in this folder that will show you a digram of 
 
-
-# datalake-sync overview
+### datalake-sync overview
 In the data-lake repositories you will find a folder calld datalake-sync (data-lake/datalake-sync)
+
 sync_to_azure is a script for synchronizing MiSeq/NextSeq runs to Azure
-blob storage. Given a source folder (--main-folder) containing individual runs
+blob storage. 
+that given us a source folder (--main-folder) containing individual runs
 in sub-folders, the script will synchronize each sub-folder to azure, verify
 the integrity of remote files by comparing MD5 hashes, and optionally delete
 local files if files were successfully transferred and validated (with
@@ -55,3 +57,7 @@ NextSeq v2 (with --completion-flag).
 In addition to synchronizing folders containing sequencing runs, the script
 can optionally copy sample-sheet files located in a separate folder; for a
 given run ${NAME} the sample-sheet is expected to be named ${NAME}.csv.
+
+
+# BlobServiceClient 
+The BlobServiceClient allows you to manipulate Azure Storage service resources and blob containers.
