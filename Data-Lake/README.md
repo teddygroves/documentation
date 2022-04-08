@@ -2,10 +2,10 @@
 A data lake is a scalable data storage and analytices service.
 
 # techenoology use 
-pyhton3
-Azure
-Docker
-SQL 
+- pyhton3
+- Azure
+- Docker
+- SQL 
 
 ### python3
 Python3 is programming language that the project is written in.
