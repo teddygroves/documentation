@@ -6,3 +6,5 @@ documentation of the Biosustain RDM-team's repository
 - data-warehouse https://github.com/biosustain/data-warehouse
 - data-lake https://github.com/biosustain/data-lake
 - lims-extensions-ui https://github.com/biosustain/lims-extensions-ui 
+- datagen-dashboard https://github.com/biosustain/datagen-dashboard
+
