@@ -7,18 +7,18 @@ Azure
 Docker
 SQL 
 
-# python3
+### python3
 Python3 is programming language that the project is written in.
 
-# Azure
+### Azure
 Azure is a cloud computing service operated by Microsoft for application management via Microsoft-managed data centers.
 
-# Docker 
+### Docker 
 Docker is an open source containerization platform. 
 It enables developers to package applicatins into containers.
 We use Docker for the MV environement.
 
-# SQL
+### SQL
 SQL stands for Structured Query Language. 
 SQL lets you access and manipulate databases.
 
