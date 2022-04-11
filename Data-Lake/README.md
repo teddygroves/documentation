@@ -37,7 +37,7 @@ The Data lake get it data from 3 different data providers
 - External data providers
 when the data put into the data-lake we processed into tabels and organice it in the datawarehouse.
 
-(you can also finde a data-lake.png in this folder that will show you a digram of) 
+(you can also finde a data-lake.png in this folder that will show you a digram of the data-lake struktur) 
 
 ### datalake-sync overview
 In the data-lake repositories you will find a folder calld datalake-sync (data-lake/datalake-sync)
@@ -61,4 +61,5 @@ given run ${NAME} the sample-sheet is expected to be named ${NAME}.csv.
 ### datalake-sync-vm
 
 In the data-lake repositories you will find a folder calld datalake-sync-mv (data-lake/datalake-sync-mv)
+
 This folder contains configuration files and scripts for setting up the VM used to sync files to the datalake, along with other tasks.
