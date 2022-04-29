@@ -13,15 +13,15 @@ Documentation of the Biosustain RDM-team's repositories.
 If you experience any issues with LIMS or Benchling please use the [LIMS Help Desk ticketing system](https://biosustain-dev.atlassian.net/servicedesk/customer/portal/2/group/-1).
 
 # General feedback and questions
-If you have feedback or questions to the documentation, please make comments within this repository. For feedback and questions for research data management please contact the relevant members in the RDM team:
+If you have feedback or questions to the documentation, please make comments within this repository. For feedback and questions about research data management or software tools (other than LIMS and Benchling) provided by the RDM Team, please contact the relevant members of the RDM team:
 
-*Software development and data architecture related questions*
-Eren Yagdiran, ereyag@biosustain.dtu.dk, R-228D
+**Software development and data architecture related questions** \
+Eren Yagdiran, ereyag@biosustain.dtu.dk, R-228D\
 Karina Reimer-Hansen, kreimer@biosustain.dtu.dk, R-228D
 
-*Practical data management, FAIR and data architecture related questons*
-Ding He, dinghe@biosustain.dtu.dk, R-228D
+**Practical data management, FAIR and data architecture related questons**\
+Ding He, dinghe@biosustain.dtu.dk, R-228D\
 Ester Milesi, esterm@biosustain.dtu.dk, R-228D
 
-*FAIR, GDPR and data maangement policy related questions*
+**FAIR, GDPR and data management policy related questions**\
 Lea Sommer, lemad@biosustain.dtu.dk, R-228F
