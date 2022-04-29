@@ -24,4 +24,4 @@ Ding He, dinghe@biosustain.dtu.dk, R-228D
 Ester Milesi, esterm@biosustain.dtu.dk, R-228D
 
 *FAIR, GDPR and data maangement policy related questions*
-Lea Sommer, lead@biosustain.dtu.dk, R-228F
+Lea Sommer, lemad@biosustain.dtu.dk, R-228F
