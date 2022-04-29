@@ -1,6 +1,20 @@
 # DATA-LAKE project
 A data lake is a scalable data storage and analytices service.
 
+## responsibility
+- project leader: Lea Mette Madsen Sommer, lemad@biosustain.dtu.dk
+
+- code for protomics: Eren Yagdian, ereyag@biosustain.dtu.dk
+- code for NGS: Eren Yagdian, ereyag@biosustain.dtu.dk
+- code for datalake-sync: Thomas Meltofte Erikesen, thoeri@biosustain.dtu.dk
+- code for datalake-sync-mv: Thomas Meltofte Erikesen, thoeri@biosustain.dtu.dk
+
+- pipline data for protomics:
+- pipline data for NGS:
+- Analytical Core:
+- NGS lab:
+- External data providers:
+
 # techenoology use 
 - pyhton3
 - Azure
@@ -37,7 +51,9 @@ The Data lake get it data from 3 different data providers
 - External data providers
 when the data put into the data-lake we processed into tabels and organice it in the datawarehouse.
 
-(you can also finde a data-lake.png in this folder that will show you a digram of the data-lake struktur) 
+(you can also finde a data-lake.png in this folder that will show you a digram of the data-lake struktur)
+
+## data-lake folder structure
 
 ### datalake-sync overview
 In the data-lake repositories you will find a folder calld datalake-sync (data-lake/datalake-sync)
