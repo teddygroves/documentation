@@ -15,6 +15,8 @@ A data lake is a scalable data storage and analytices service.
 - NGS lab:
 - External data providers:
 
+- documentation: Karina Reimer-Hansen, kreimer@biosustain.dtu.dk 
+
 # techenoology use 
 - pyhton3
 - Azure
