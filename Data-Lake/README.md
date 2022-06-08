@@ -1,7 +1,7 @@
 # DATA-LAKE project
 A data lake is a scalable data storage and analytices service.
 
-## responsibility
+## Responsibility
 - project leader: Lea Mette Madsen Sommer, lemad@biosustain.dtu.dk
 
 - code for protomics: Eren Yagdian, ereyag@biosustain.dtu.dk
@@ -9,22 +9,22 @@ A data lake is a scalable data storage and analytices service.
 - code for datalake-sync: Thomas Meltofte Erikesen, thoeri@biosustain.dtu.dk
 - code for datalake-sync-mv: Thomas Meltofte Erikesen, thoeri@biosustain.dtu.dk
 
-- pipline data reganrate for protomics: Tune wulff, tuwu@biosustain.dtu.dk and Ding He
-- pipline data for NGS: Vijayalakshmi Kandasamy, Vijayalakshmi Kandasamy and Ding He
-- Metabolomics: Tune Wulff
-- pipline data for metabolomics: Ding He and Tune Wulff  
-- NGS lab: Vijayalakshmi Kandasamy
+- Pipline data reganrate for protomics: Tune wulff, tuwu@biosustain.dtu.dk and Ding He, dinghe@biosustain.dtu.dk
+- Pipline data for NGS: Vijayalakshmi Kandasamy, vijkan@biosustain.dtu.dk and Ding He, dinghe@biosustain.dtu.dk
+- Metabolomics: Tune Wulff, tuwu@biosustain.dtu.dk
+- Pipline data for metabolomics: Ding He, dinghe@biosustain.dtu.dk and Tune Wulff, tuwu@biosustain.dtu.dk
+- NGS lab: Vijayalakshmi Kandasamy, vijkan@biosustain.dtu.dk
 - External data providers: none know
 
-- documentation: Karina Reimer-Hansen, kreimer@biosustain.dtu.dk 
+- Documentation: Karina Reimer-Hansen, kreimer@biosustain.dtu.dk 
 
-# techenoology use 
+# Techenoology use 
 - pyhton3
 - Azure
 - Docker
 - SQL 
 
-### python3
+### Python3
 Python3 is programming language that the project is written in.
 
 ### Azure
@@ -57,7 +57,7 @@ when the data put into the data-lake we processed into tabels and organice it in
 (you can also finde a data-lake.png in this folder that will show you a digram of the data-lake struktur)
 
 ## data-lake folder structure
-- po
+- protomics
 - ngs
 - meta
 
