@@ -1,8 +1,6 @@
 # DATA-LAKE PROJECT
 A data lake is a scalable data storage and analytics service.
-Here we collect Proteomics, NGS, Metabolomics data that we get from benchling.
-So the more data you create in benchling the more you help your-self and others to find fair data.
-Read a long and find out how RDM-team take care of you data
+Here we collect Proteomics, NGS, Metabolomics data this data com from NGS lab sevicer.  
 
 ## RESPONSIBILITY
 - Project leader: Lea Mette Madsen Sommer, lemad@biosustain.dtu.dk
@@ -39,13 +37,6 @@ We use Docker for the MV environment.
 SQL stands for Structured Query Language.
 SQL lets you access and manipulate databases.
 
-#### WE ARE CONVERTING OUR PROJECTS FROM SQL TO POSTGRESQL
-reasons for this is that we have had experience,
-that the banking-team sometimes made naming changes to their Post Sql database tables.
-This gives os mapping conflicts in our SQL database.
-To solve this we want to convert our SQL database to a Postgresql database
-so that we have one to one database relations with Benchling.
-
 ## HOW THE DATA-LAKE WORKS
 The Data lake get it data from 3 different data providers
 - Analytical Core
@@ -60,7 +51,6 @@ When the data is put into the data-lake we process it into tables and organize i
 - Metabolomics
 
 ### DATALAKE-SYNC OVERVIEW
- 
 sync_to_azure is a script for synchronizing MiSeq/NextSeq runs to Azure
 blob storage.
 that given us a source folder (--main-folder) containing individual runs
@@ -76,7 +66,6 @@ can optionally copy sample-sheet files located in a separate folder; for a
 given run ${NAME} the sample-sheet is expected to be named ${NAME}.csv.
  
 # DOCKER IMAGE
- 
 The docker image requires that the `azure-storage-azcopy` submodule has been checked out. If that is not the case, the submodule can be initialized as follows:
  
 ``` bash
@@ -109,8 +98,7 @@ $ make push TAG=MyTag
 **WARNING:** Please make sure that all current changes have been committed before building a docker image for deployment!
  
  
-# MANUAL INSTALLATION
- 
+# TO MANUAL INSTALLATION USE THIS COMMAND LINES 
 ``` bash
 $ python3 setup.py install
 $ sync_to_azure -h
@@ -123,7 +111,10 @@ $ python3 -m pip install coloredlogs
 ```
  
 ## AZCOPY
- 
+AzCopy v10 is a command-line utility that you can use to copy data to and from containers and file shares in Azure Storage accounts. 
+AzCopy V10 presents easy-to-use commands that are optimized for performance.
+read more on https://github.com/biosustain/azure-storage-azcopy.git
+
 This script depends on a modified version of AzCopy that adds a 'list_md5s'
 command for the bulk retrieval of MD5 hashes of uploaded:
  
@@ -143,7 +134,6 @@ $ export GOPATH=$HOME/go
 ```
  
 # CONFIGURATION
- 
 The sync_to_azure script may be configured via command-line options,
 or using a ini file via --config-file. By default, the script will look for
 'azsync.cfg' in the current working directory:
@@ -175,14 +165,12 @@ Options in the config file correspond to the options available via the command
 line (see 'sync_to_azure --help'), but without the leading dashes.
  
 # LOGGING
- 
 By default the script will write all output to STDOUT, but the --log-file
 option may be used to save a copy to a given file. In addition, if the
 --log-recipient and --smth-\* options are set, the log will be emailed to
 the specified recipients if any errors occur.
  
 # DEVELOPMENT
- 
 Code was formatted using [Black](https://github.com/psf/black) and checked using
 [flake8](http://flake8.pycqa.org/en/latest/). Unit tests and regression tests are included and can be run using `tox`:
  
@@ -197,7 +185,6 @@ In the data-lake repositories you will find a folder called datalake-sync-mv (da
 This folder contains configuration files and scripts for setting up the VM used to sync files to the data lake, along with other tasks.
  
 ## BASIC REQUIREMENTS
- 
 The VM must have `autofs`, Docker and the Azure command-line tools (`az`) installed. In addition, `az` must be used to login using an account with access to the `cfbregistry` ACR. The `cfb_acr_reader` service principal is intended for this purpose (see below). Python modules used by `cronbeat` must either be installed globally or in a virtual environment.
  
 ## AUTO-MOUNTING NETWORK DRIVES
