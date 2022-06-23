@@ -1,4 +1,4 @@
-LIMS - Laboratory Information Management System.
+This is the frontend for LIMS - Laboratory Information Management System.
 We have developed add-ons to Benchling that are specific for our center. 
 For example to visualize the lineage of strains and cell lines or make sample registration easier when submitting samples to the Analytical Core, IPC or the NGS lab.
  
@@ -35,17 +35,37 @@ Create and register samples to add to a request on Benchling. create a plate or 
  
 - IDE
 An in-build IDE in the LIMS solution with code snippets and how to guide.
-Here you can use the IDE to get 
+Here you can use the IDE to play a round diffecent resultes from Benchling. 
 
 - Data Browser
 Access sequencing and proteomics data registered on Benchling.
+Here you can look through the data that you have accesse to in the data-lake. 
+contact the RDM-team about access
  
 - AC Booking
-here you can book time with laboratory instrument
- 
-- Purchasing: view and edit material orders
+here you can book time with laboratory instrument beforhand. 
+you just choose the day and the instrument that you need, need to say that this feature is under develpoment. 
+
+- Purchasing 
+adminster commercial material orders made in Benchling. 
+Here you can order the materials that pepole needs for the lab. 
+you can only use purchasing, if you have perminssion. 
+Contact the LIMS Administrator if need permission. 
+
+In purchasing you can filter the orders by staus, requested by, seller or order by and keep track of the orders is requsted, in progress and completed. you can also edit multiple orders at once. 
  
 ### TECHNOLOGY USED
 - Angular
 - Node.js
 - Docker
+
+### ANGULAR 
+Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. 
+
+### NODE.JS
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications. 
+
+#### DOCKER
+Docker is an open source containerization platform.
+It enables developers to package applications into containers.
+We use Docker for the MV environment.

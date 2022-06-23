@@ -2,7 +2,7 @@
 A data lake is a scalable data storage and analytics service.
 Here we collect Proteomics, NGS, Metabolomics data this data com from NGS lab sevicer.  
 
-## RESPONSIBILITY
+**RESPONSIBILITY**
 - Project leader: Lea Mette Madsen Sommer, lemad@biosustain.dtu.dk
 - Code for proteomics: Eren Yagdian, ereyag@biosustain.dtu.dk
 - Code for NGS: Eren Yagdian, ereyag@biosustain.dtu.dk
