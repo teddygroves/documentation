@@ -68,4 +68,3 @@ Node.js is an open-source, cross-platform, back-end JavaScript runtime environme
 #### DOCKER
 Docker is an open source containerization platform.
 It enables developers to package applications into containers.
-We use Docker for the MV environment.

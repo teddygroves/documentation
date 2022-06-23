@@ -20,4 +20,3 @@ Jenkins is an open source automation server. It helps automate the parts of soft
 #### DOCKER
 Docker is an open source containerization platform.
 It enables developers to package applications into containers.
-We use Docker for the MV environment.
