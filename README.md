@@ -8,6 +8,7 @@ Documentation of the Biosustain RDM-team's repositories.
 - lims-extensions-ui https://github.com/biosustain/lims-extensions-ui 
 - lims-extensions https://github.com/biosustain/lims-extensions
 - datagen-dashboard https://github.com/biosustain/datagen-dashboard
+- rdms-frontpage https://github.com/biosustain/rdms-frontpage
 
 # Feedback and bug reporting for LIMS and Benchling
 If you experience any issues with LIMS or Benchling please use the [LIMS Help Desk ticketing system](https://biosustain-dev.atlassian.net/servicedesk/customer/portal/2/group/-1).
