@@ -57,7 +57,6 @@ In purchasing you can filter the orders by staus, requested by, seller or order 
 ### TECHNOLOGY USED
 - Angular
 - Node.js
-- Docker
 
 ### ANGULAR 
 Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. 
@@ -65,6 +64,5 @@ Angular is a TypeScript-based free and open-source web application framework led
 ### NODE.JS
 Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications. 
 
-#### DOCKER
-Docker is an open source containerization platform.
-It enables developers to package applications into containers.
+## nices to know 
+You can also find guidelines and must ask questions to LIMS and Benchling on conflunce: https://biosustain-dev.atlassian.net/wiki/spaces/LHG/overview
