@@ -51,8 +51,9 @@ When the data is put into the data-lake it is processed, before it also goes int
 - Proteomics
 - NGS nextseq
 - NGS miseq
-- Metabolomics **Does this exist?**
-- Illumina **Is there a specific pipeline with this name?**
+- Nanopore **is next**
+- targeted-Metabolomics **is next**
+- on-targeted-Metabolomics **is next**
  
 ### DATALAKE-SYNC OVERVIEW
 sync_to_azure is a script for synchronizing MiSeq/NextSeq runs to Azure
