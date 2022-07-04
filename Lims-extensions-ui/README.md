@@ -41,6 +41,8 @@ Here you can use the IDE to play around with different data from Benchling.
 Access sequencing and proteomics data from Analytical Core and NGS lab with sample references to Benchling.
 Here you can look through the data that you have accesse to in the data-lake. Access is granted based on your acces rights in Benchling. So, if you have access to view a submission sample in Benchling you will also have access to see the data generated for that sample.
 
+- Import online data
+Upload and store culture-based online data into Data Lake. (under developerment)
  
 - AC Booking **This should be deleted, I do not believe it is functional. We need to talk with Jan, I believe they have a different system that is used and we could settle with linking to that system instead**
 Here you can book time with laboratory instrument beforhand. 
