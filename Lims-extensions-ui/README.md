@@ -16,7 +16,7 @@ Optionally refine the raw data associated with a request by selecting the best v
 Upload final result to Benchling (data table "AC quantification Raw Run").
  
 - Media
-Search for medium recipes that is located in Benchling and get the recipes that you need **does this only search "medium" or does it search though all "mixtures" maybe it makes sense to specify exactly which entities it searches through**
+Search for medium recipes and mixtures that is located in Benchling and get the recipes that you need. **does this only search "medium" or does it search though all "mixtures" maybe it makes sense to specify exactly which entities it searches through**
 View medium recipes and calculate quantities based on the desired final volume.
 You can go to Benchling and view the recipes by clicking on search, seclet type and enitity, and then at the bottom, select Medium with Recipe.
  
@@ -25,10 +25,7 @@ Browse through the lineage of strains and cell lines that are registered in Benc
 You can se the parents and children, you can also compare metadata to other strains and cell-lines. 
  
 - Export Experiment Data
-Download experiment related data from Benchling in different formats.
-- .xlsx
-- .csv
-You can add filter columns in the order that you want the file to be sorted by, before you download. **I believe this is mainly for selected teams that an export has been defined for. Maybe check which teams and exactly what experiment data is exported. For now we could write that documentation for this is being detailed and will be updated soon. -I think it is quite a handfull to describe exactly what data is exported and how and which calculations are done.**
+Documentation for this is being detailed and will be updated soon
  
 - Register samples for a request
 Create and register samples to add to a request in Benchling. Create a plate or box to store the samples and specify metadata related to the samples.
@@ -43,10 +40,6 @@ Here you can look through the data that you have accesse to in the data-lake. Ac
 
 - Import online data
 Upload and store culture-based online data into Data Lake. (under developerment)
- 
-- AC Booking **This should be deleted, I do not believe it is functional. We need to talk with Jan, I believe they have a different system that is used and we could settle with linking to that system instead**
-Here you can book time with laboratory instrument beforhand. 
-You just choose the day and the instrument that you need, need to say that this feature is under develpoment. 
 
 - Purchasing 
 Adminster commercial material orders made in Benchling. 

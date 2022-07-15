@@ -44,6 +44,13 @@ The Data lake gets its data from different data providers
 - Analytical Core
 - NGS lab
 
+the Data lake repo contains mutible diff projects repos  
+
+the data-lake virtual machine reads, writes and processed to the data-lake.
+NGS data comming from the MiSeq that is processed and a result table is loaded into the DWH
+(you can also find a data-lake.png in this folder that will show you a diagram of the data-lake struktur)
+
+---
 When the data is put into the data-lake it is processed, before it also goes into the data warehouse. **control exactly what data gets processed and added to the DWH. I believe it it only NGS data comming from the MiSeq that is processed and a result table is loaded into the DWH.**
 (you can also find a data-lake.png in this folder that will show you a diagram of the data-lake struktur)**I think we need Thomas to identify the schema he has made for the DL and DWH etc that can then be linked**
  
@@ -56,6 +63,7 @@ When the data is put into the data-lake it is processed, before it also goes int
 - Untargeted-Metabolomics **is next**
  
 ### DATALAKE-SYNC OVERVIEW
+
 sync_to_azure is a script for synchronizing MiSeq/NextSeq runs to Azure
 blob storage.
 **This beginning of the sentence does not make sense to me** that given us a source folder (--main-folder) containing individual runs
@@ -78,7 +86,7 @@ read more on https://github.com/biosustain/azure-storage-azcopy.git
  
 # LOGGING
 By default the script will write all output to STDOUT, but the --log-file
-option may **is the --log-file used in our case?** be used to save a copy to a given file. In addition, if the
+option may **is the --log-file used in our case? - that is wat the documentation are saying but need to sak Thomas**be used to save a copy to a given file. In addition, if the
 --log-recipient and --smth-\* options are set, the log will be emailed to
 the specified recipients if any errors occur.
  
