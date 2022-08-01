@@ -49,10 +49,6 @@ the Data lake repo contains mutible diff projects repos
 the data-lake virtual machine reads, writes and processed to the data-lake.
 NGS data comming from the MiSeq that is processed and a result table is loaded into the DWH
 (you can also find a data-lake.png in this folder that will show you a diagram of the data-lake struktur)
-
----
-When the data is put into the data-lake it is processed, before it also goes into the data warehouse. **control exactly what data gets processed and added to the DWH. I believe it it only NGS data comming from the MiSeq that is processed and a result table is loaded into the DWH.**
-(you can also find a data-lake.png in this folder that will show you a diagram of the data-lake struktur)**I think we need Thomas to identify the schema he has made for the DL and DWH etc that can then be linked**
  
 ## DATA-LAKE PIPELINES
 - Proteomics
@@ -64,19 +60,13 @@ When the data is put into the data-lake it is processed, before it also goes int
  
 ### DATALAKE-SYNC OVERVIEW
 
-sync_to_azure is a script for synchronizing MiSeq/NextSeq runs to Azure
-blob storage.
-**This beginning of the sentence does not make sense to me** that given us a source folder (--main-folder) containing individual runs
+sync_to_azure is a script for synchronizing MiSeq and NextSeq that runs in the Azure
+blob storage. (Blob storage is optimized for storing massive amounts of unstructured data.)
+the sync_to_azure script given us a source folder (--main-folder) containing individual runs
 in sub-folders, the script will synchronize each sub-folder to azure, verify
 the integrity of remote files by comparing MD5 hashes, and optionally delete
 local files if files were successfully transferred and validated (with
 --remove-source).
-Completed runs **are?** detected by checking for the existence of user-defined
-files, such as "RTAComplete.txt" for MiSeq and "RunCompletionStatus.xml" for
-NextSeq v2 (with --completion-flag).
-In addition to synchronizing folders containing sequencing runs, the script
-can optionally **not sure it is an option that you would need to manually select?** copy sample-sheet files located in a separate folder; for a
-given run ${NAME} the sample-sheet is expected to be named ${NAME}.csv.
  
 ## AZCOPY
 The project is depend on AZCOPY,
@@ -86,7 +76,7 @@ read more on https://github.com/biosustain/azure-storage-azcopy.git
  
 # LOGGING
 By default the script will write all output to STDOUT, but the --log-file
-option may **is the --log-file used in our case? - that is wat the documentation are saying but need to sak Thomas**be used to save a copy to a given file. In addition, if the
+option may be used to save a copy to a given file. In addition, if the
 --log-recipient and --smth-\* options are set, the log will be emailed to
 the specified recipients if any errors occur.
  
