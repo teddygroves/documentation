@@ -39,7 +39,7 @@ Documentation for this is being detailed and will be updated soon.
 - Register samples for a request
 Create and register samples to add to a request in Benchling. Create a plate or box to store the samples and specify metadata related to the samples.
  
-- IDE
+- IDE (under developerment)
 An in-build IDE in the LIMS solution with code snippets and how to guide.
 Here you can use the IDE to play around with different data from Benchling. 
 
@@ -47,8 +47,8 @@ Here you can use the IDE to play around with different data from Benchling.
 Access sequencing and proteomics data from Analytical Core and NGS lab with sample references to Benchling.
 Here you can look through the data that you have accesse to in the data-lake. Access is granted based on your acces rights in Benchling. So, if you have access to view a submission sample in Benchling you will also have access to see the data generated for that sample.
 
-- Import online data
-Upload and store culture-based online data into the Data Lake. (under developerment)
+- Import online data (under developerment)
+Upload and store culture-based online data into the Data Lake. 
 
 - Purchasing 
 Adminster commercial material orders made in Benchling. 
