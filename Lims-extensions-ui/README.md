@@ -48,7 +48,7 @@ Access sequencing and proteomics data from Analytical Core and NGS lab with samp
 Here you can look through the data that you have accesse to in the data-lake. Access is granted based on your acces rights in Benchling. So, if you have access to view a submission sample in Benchling you will also have access to see the data generated for that sample.
 
 - Import online data
-Upload and store culture-based online data into Data Lake. (under developerment)
+Upload and store culture-based online data into the Data Lake. (under developerment)
 
 - Purchasing 
 Adminster commercial material orders made in Benchling. 
