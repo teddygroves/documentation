@@ -7,7 +7,7 @@ The scope of data capture is defined as automatic synchronisation of research da
 ## Next-Generation Sequencing
 
 - Illumina MiSeq/NextSeq
-- Nanopore
+- [Nanopore](https://github.com/biosustain/documentation/tree/Nanopore/Data-Capture/NGS/Nanopore)
 
 ## Metabolomics
 
